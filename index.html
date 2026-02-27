@@ -1,93 +1,252 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rashi Naagar | Portfolio</title>
+    <meta name="description"
+        content="Rashi Naagar — BCA student, cybersecurity enthusiast, and emerging tech leader. Portfolio showcasing education, experience, and skills.">
     <link rel="stylesheet" href="style.css">
     <meta name="google-site-verification" content="FgAJWP-6QLEOTDkbPVKLnWgfzNHGZPhjnbm31j00ymY" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
 
-    <header>
-        <h1>Rashi Naagar</h1>
-        <p>BCA Student | Aspiring Software Developer</p>
-        <a href="#contact" class="btn">Contact Me</a>
+    <!-- FLOATING NAV -->
+    <header id="navbar">
+        <a href="#" class="logo">R<span class="logo-dot">.</span></a>
+        <nav id="navMenu">
+            <a href="#about">About</a>
+            <a href="#education">Education</a>
+            <a href="#experience">Experience</a>
+            <a href="#skills">Skills</a>
+            <a href="#contact">Contact</a>
+        </nav>
+        <button class="menu-btn" id="menuBtn" aria-label="Menu">
+            <span></span><span></span>
+        </button>
     </header>
 
-    <section id="about">
-        <h2>About Me</h2>
-        <p>
-            I am a BCA student at JIMS Vasant Kunj with strong interest in 
-            software development, cybersecurity and content strategy. 
-            I enjoy building responsive web applications and learning new technologies.
-        </p>
+    <!-- HERO -->
+    <section class="hero">
+        <div class="hero-grid-bg"></div>
+        <div class="hero-content">
+            <div class="hero-badge">🛡️ Cybersecurity Enthusiast</div>
+            <h1>Rashi<br><em>Naagar</em></h1>
+            <p class="hero-sub">BCA Student · Security · Development · Emerging Tech</p>
+            <div class="hero-actions">
+                <a href="#contact" class="btn-fill">Say Hello</a>
+                <a href="#about" class="btn-outline">Explore ↓</a>
+            </div>
+        </div>
+        <div class="hero-scroll-line"></div>
     </section>
 
-    <section id="education">
-        <h2>Education</h2>
-        <ul>
-            <li><strong>BCA</strong> – JIMS Vasant Kunj (2024–2027)</li>
-            <li>Class 12 – 77% (Science)</li>
-            <li>Class 10 – 93%</li>
-        </ul>
-    </section>
-
-    <section id="experience">
-        <h2>Experience</h2>
-        <h3>Cybersecurity Intern – Secure Strike</h3>
-        <p>
-            Worked on cybersecurity awareness modules, threat analysis basics 
-            and practical understanding of security tools.
-        </p>
-
-        <h3>Assistant Director – Social Media & Content</h3>
-        <p>
-            Managed content strategy, digital promotions and engagement campaigns 
-            for college events.
-        </p>
-    </section>
-
-    <section id="skills">
-        <h2>Technical Skills</h2>
-        <div class="skills-container">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>Java</span>
-            <span>C Programming</span>
-            <span>DBMS</span>
-            <span>Python (Basics)</span>
+    <!-- ABOUT -->
+    <section id="about" class="section fade-in">
+        <div class="container">
+            <div class="section-label">01 — About</div>
+            <div class="about-layout">
+                <h2>Building at the<br>intersection of<br><em>security & code</em></h2>
+                <div class="about-body">
+                    <p>
+                        BCA student with strong academic performance and interest in cybersecurity,
+                        software development and emerging technologies. Active contributor in
+                        technical clubs and entrepreneurship initiatives with leadership experience.
+                    </p>
+                    <div class="about-highlights">
+                        <div class="highlight">
+                            <span class="h-num">9.34</span>
+                            <span class="h-label">CGPA</span>
+                        </div>
+                        <div class="highlight">
+                            <span class="h-num">11+</span>
+                            <span class="h-label">Tech Skills</span>
+                        </div>
+                        <div class="highlight">
+                            <span class="h-num">3</span>
+                            <span class="h-label">Roles</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="projects">
-        <h2>Projects</h2>
-        <div class="project">
-            <h3>Cybersecurity Internship Report</h3>
-            <p>Detailed documentation of 9 cybersecurity modules.</p>
-        </div>
-
-        <div class="project">
-            <h3>Student Database Management System</h3>
-            <p>Menu-driven DBMS project using C.</p>
+    <!-- EDUCATION -->
+    <section id="education" class="section fade-in">
+        <div class="container">
+            <div class="section-label">02 — Education</div>
+            <div class="edu-stack">
+                <div class="edu-card">
+                    <div class="edu-year">2024–2027</div>
+                    <div class="edu-info">
+                        <h3>Bachelor of Computer Applications</h3>
+                        <p>Jagannath International Management School, Vasant Kunj</p>
+                        <span class="edu-tag">CGPA: 9.34</span>
+                    </div>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-year">Class XII</div>
+                    <div class="edu-info">
+                        <h3>PCM Stream</h3>
+                        <p>Green Fields School</p>
+                        <span class="edu-tag">77.4%</span>
+                    </div>
+                </div>
+                <div class="edu-card">
+                    <div class="edu-year">Class X</div>
+                    <div class="edu-info">
+                        <h3>Secondary Education</h3>
+                        <p>Green Fields School</p>
+                        <span class="edu-tag">93.4%</span>
+                    </div>
+                </div>
+            </div>
         </div>
     </section>
 
-    <section id="resume">
-        <h2>Resume</h2>
-        <p>Click below to download my resume.</p>
-        <a href="resume.pdf" class="btn">Download Resume</a>
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section fade-in">
+        <div class="container">
+            <div class="section-label">03 — Experience & Responsibilities</div>
+            <div class="exp-grid">
+                <article class="exp-card">
+                    <div class="exp-icon">📱</div>
+                    <div class="exp-meta">ENIGMA IT Club · Aug 2025 – Present</div>
+                    <h3>Assistant Director — Social Media & Content</h3>
+                    <ul>
+                        <li>Managed social media and content planning</li>
+                        <li>Supported technical event execution</li>
+                    </ul>
+                </article>
+                <article class="exp-card">
+                    <div class="exp-icon">💡</div>
+                    <div class="exp-meta">E-Cell, JIMS · Aug 2025 – Present</div>
+                    <h3>Strategies Executive</h3>
+                    <ul>
+                        <li>Strategic planning and promotions</li>
+                        <li>Entrepreneurship event coordination</li>
+                    </ul>
+                </article>
+                <article class="exp-card">
+                    <div class="exp-icon">🔐</div>
+                    <div class="exp-meta">Secure Strike</div>
+                    <h3>Cybersecurity Intern</h3>
+                    <ul>
+                        <li>Cybersecurity fundamentals</li>
+                        <li>Threat awareness & safe computing practices</li>
+                    </ul>
+                </article>
+            </div>
+        </div>
     </section>
 
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: rashinaagar@email.com</p>
-        <p>LinkedIn: linkedin.com/in/rashinaagar</p>
-        <p>Phone: +91-XXXXXXXXXX</p>
+    <!-- SKILLS -->
+    <section id="skills" class="section fade-in">
+        <div class="container">
+            <div class="section-label">04 — Skills</div>
+
+            <h3 class="skills-heading">Technical</h3>
+            <div class="skills-wrap">
+                <span class="chip" style="--i:0">C</span>
+                <span class="chip" style="--i:1">Java (OOP)</span>
+                <span class="chip" style="--i:2">Python</span>
+                <span class="chip" style="--i:3">HTML</span>
+                <span class="chip" style="--i:4">CSS</span>
+                <span class="chip" style="--i:5">MySQL</span>
+                <span class="chip" style="--i:6">JavaScript</span>
+                <span class="chip" style="--i:7">ReactJS</span>
+                <span class="chip" style="--i:8">Data Science</span>
+                <span class="chip" style="--i:9">Machine Learning</span>
+                <span class="chip" style="--i:10">Cybersecurity Basics</span>
+            </div>
+
+            <h3 class="skills-heading">Soft Skills</h3>
+            <div class="skills-wrap">
+                <span class="chip soft" style="--i:0">Leadership</span>
+                <span class="chip soft" style="--i:1">Project Management</span>
+                <span class="chip soft" style="--i:2">Strategic Planning</span>
+                <span class="chip soft" style="--i:3">Communication</span>
+                <span class="chip soft" style="--i:4">Team Collaboration</span>
+                <span class="chip soft" style="--i:5">Analytical Thinking</span>
+            </div>
+        </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section fade-in">
+        <div class="container">
+            <div class="section-label">05 — Contact</div>
+            <div class="contact-layout">
+                <h2>Let's<br><em>connect</em></h2>
+                <div class="contact-details">
+                    <a href="mailto:rnaagar908@gmail.com" class="contact-row">
+                        <span class="contact-key">Email</span>
+                        <span class="contact-val">rnaagar908@gmail.com</span>
+                    </a>
+                    <a href="tel:+917042813066" class="contact-row">
+                        <span class="contact-key">Phone</span>
+                        <span class="contact-val">+91 7042813066</span>
+                    </a>
+                    <div class="contact-row">
+                        <span class="contact-key">Location</span>
+                        <span class="contact-val">New Delhi, India</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
 
     <footer>
-        <p>©️ 2026 Rashi Naagar | All Rights Reserved</p>
+        <p>© 2026 Rashi Naagar · Crafted with care</p>
     </footer>
 
+    <script>
+        /* Scroll reveal */
+        const faders = document.querySelectorAll('.fade-in');
+        const fadeObserver = new IntersectionObserver((entries) => {
+            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+        }, { threshold: 0.12 });
+        faders.forEach(el => fadeObserver.observe(el));
+
+        /* Navbar shrink */
+        const nb = document.getElementById('navbar');
+        window.addEventListener('scroll', () => nb.classList.toggle('stuck', scrollY > 60));
+
+        /* Mobile menu */
+        const menuBtn = document.getElementById('menuBtn');
+        const navMenu = document.getElementById('navMenu');
+        menuBtn.addEventListener('click', () => {
+            menuBtn.classList.toggle('open');
+            navMenu.classList.toggle('open');
+        });
+        document.querySelectorAll('#navMenu a').forEach(a =>
+            a.addEventListener('click', () => { menuBtn.classList.remove('open'); navMenu.classList.remove('open'); })
+        );
+
+        /* Smooth scroll */
+        document.querySelectorAll('a[href^="#"]').forEach(a => {
+            a.addEventListener('click', e => {
+                e.preventDefault();
+                const t = document.querySelector(a.getAttribute('href'));
+                if (t) t.scrollIntoView({ behavior: 'smooth' });
+            });
+        });
+
+        /* Staggered chip animation */
+        const chipObserver = new IntersectionObserver((entries) => {
+            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('pop'); });
+        }, { threshold: 0.1 });
+        document.querySelectorAll('.chip').forEach(c => chipObserver.observe(c));
+    </script>
+
 </body>
+
 </html>
