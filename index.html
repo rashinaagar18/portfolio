@@ -2,17 +2,18 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>Rashi Naagar | Portfolio</title>
 
     <meta name="description"
-        content="Rashi Naagar — Frontend Developer, BCA Student & Data Science Enthusiast Portfolio.">
+        content="Rashi Naagar — Frontend Developer, BCA Student & Data Science Enthusiast Portfolio." />
 
-    <link rel="stylesheet" href="style.css">
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css" />
 
-    <!-- Google Fonts -->
+    <!-- GOOGLE FONTS -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 
@@ -20,9 +21,9 @@
         href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
 
-    <!-- Font Awesome -->
+    <!-- FONT AWESOME -->
     <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
 </head>
 
 <body>
@@ -68,66 +69,74 @@
 
         <div class="hero-grid-bg"></div>
 
-        <!-- STICKERS -->
-        <img src="heart.JPG" class="sticker sticker-1">
-        <img src="sparkle.JPG" class="sticker sticker-2">
-        <img src="star.JPG" class="sticker sticker-3">
+        <!-- CIRCLE STICKERS -->
+        <img src="sparkle.JPG" class="corner-sticker top-left">
+        <img src="star.JPG" class="corner-sticker top-right">
+        <img src="star.JPG" class="corner-sticker bottom-left">
+        <img src="sparkle.JPG" class="corner-sticker bottom-right">
 
         <div class="hero-content fade-in">
 
-            <div class="hero-image-wrap">
-                <img src="heart.JPG" alt="Rashi Naagar" class="hero-image">
-            </div>
+            <!-- NAME + PHOTO -->
+            <div class="hero-main">
 
-            <div class="hero-badge">
-                ✨ Frontend Developer · BCA Student
-            </div>
+                <div class="hero-text">
 
-            <h1>
-                Rashi<br>
-                <em>Naagar</em>
-            </h1>
+                    <div class="hero-badge">
+                        ✨ Frontend Developer · BCA Student
+                    </div>
 
-            <p class="hero-sub">
-                Frontend · Data Science · Web Developer
-            </p>
+                    <h1>
+                        Rashi<br>
+                        <em>Naagar</em>
+                    </h1>
 
-            <!-- SOCIALS -->
-            <div class="social-links">
+                    <p class="hero-sub">
+                        Frontend · Data Science · Creative Developer
+                    </p>
 
-                <a href="https://github.com/rashinaagar18" target="_blank">
-                    <i class="fab fa-github"></i>
-                </a>
+                    <!-- SOCIALS -->
+                    <div class="social-links">
 
-                <a href="https://www.linkedin.com/in/rashinaagar/" target="_blank">
-                    <i class="fab fa-linkedin-in"></i>
-                </a>
+                        <a href="https://github.com/rashinaagar18" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
 
-                <a href="mailto:rnaagar908@gmail.com">
-                    <i class="fas fa-envelope"></i>
-                </a>
+                        <a href="https://www.linkedin.com/in/rashinaagar/" target="_blank">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
 
-            </div>
+                        <a href="mailto:rnaagar908@gmail.com">
+                            <i class="fas fa-envelope"></i>
+                        </a>
 
-            <!-- BUTTONS -->
-            <div class="hero-actions">
+                    </div>
 
-                <a href="#contact" class="btn-fill">
-                    Say Hello
-                </a>
+                    <!-- BUTTONS -->
+                    <div class="hero-actions">
 
-                <a href="r'/Users/sachinnaagar/Downloads/Rashi Naagar Resume.pdf'" download class="btn-outline">
-                    Download Resume
-                </a>
+                        <a href="#contact" class="btn-fill">
+                            Say Hello
+                        </a>
+
+                        <a href="Rashi Naagar Resume.pdf" download class="btn-outline">
+                            Download Resume
+                        </a>
+
+                    </div>
+
+                </div>
+
+                <!-- PHOTO -->
+                <div class="hero-image-wrap">
+                    <img src="rashi2.jpg" alt="Rashi Naagar" class="hero-image">
+                </div>
 
             </div>
 
         </div>
 
-        <div class="hero-scroll-line"></div>
-
     </section>
-
 
     <!-- ABOUT -->
     <section id="about" class="section section-lavender fade-in">
@@ -181,7 +190,6 @@
 
     </section>
 
-
     <!-- EDUCATION -->
     <section id="education" class="section section-peach fade-in">
 
@@ -229,7 +237,6 @@
 
     </section>
 
-
     <!-- EXPERIENCE -->
     <section id="experience" class="section section-mint fade-in">
 
@@ -243,9 +250,14 @@
 
                 <article class="exp-card">
                     <div class="exp-icon">📱</div>
-                    <div class="exp-meta">ENIGMA IT Club</div>
 
-                    <h3>Assistant Director — Social Media</h3>
+                    <div class="exp-meta">
+                        ENIGMA IT Club
+                    </div>
+
+                    <h3>
+                        Assistant Director — Social Media
+                    </h3>
 
                     <ul>
                         <li>Managed content planning & social media</li>
@@ -255,9 +267,14 @@
 
                 <article class="exp-card">
                     <div class="exp-icon">💡</div>
-                    <div class="exp-meta">E-Cell JIMS</div>
 
-                    <h3>Strategies Executive</h3>
+                    <div class="exp-meta">
+                        E-Cell JIMS
+                    </div>
+
+                    <h3>
+                        Strategies Executive
+                    </h3>
 
                     <ul>
                         <li>Worked on strategic planning</li>
@@ -267,9 +284,14 @@
 
                 <article class="exp-card">
                     <div class="exp-icon">🔐</div>
-                    <div class="exp-meta">Secure Strike</div>
 
-                    <h3>Cybersecurity Intern</h3>
+                    <div class="exp-meta">
+                        Secure Strike
+                    </div>
+
+                    <h3>
+                        Cybersecurity Intern
+                    </h3>
 
                     <ul>
                         <li>Cybersecurity fundamentals</li>
@@ -283,7 +305,6 @@
 
     </section>
 
-
     <!-- PROJECTS -->
     <section id="projects" class="section section-blue fade-in">
 
@@ -296,13 +317,18 @@
             <div class="project-grid">
 
                 <div class="project-card">
+
                     <div class="project-image">💻</div>
+
                     <h3>Work in Progress</h3>
 
-                </div>
+                    
+                    
 
-               
                 
+                
+
+                    
                 </div>
 
             </div>
@@ -310,7 +336,6 @@
         </div>
 
     </section>
-
 
     <!-- CERTIFICATES -->
     <section id="certificates" class="section section-yellow fade-in">
@@ -324,21 +349,19 @@
             <div class="cert-grid">
 
                 <div class="cert-card">
+
                     <div class="cert-icon">🏆</div>
+
                     <h3>Cybersecurity Internship</h3>
+
                     <p>Secure Strike</p>
-                </div>
 
-                <div class="cert-card">
-                    <div class="cert-icon">📜</div>
-                    <h3>Frontend Development</h3>
-                    <p>HTML · CSS · JavaScript</p>
-                </div>
+                    <a href="Rashi Cybersecurity Certificate.pdf"
+                        download
+                        class="certificate-btn">
+                        Download Certificate
+                    </a>
 
-                <div class="cert-card">
-                    <div class="cert-icon">🚀</div>
-                    <h3>Data Science Training</h3>
-                    <p>Python & Machine Learning</p>
                 </div>
 
             </div>
@@ -346,7 +369,6 @@
         </div>
 
     </section>
-
 
     <!-- SKILLS -->
     <section id="skills" class="section section-purple fade-in">
@@ -357,9 +379,12 @@
                 06 — Skills
             </div>
 
-            <h3 class="skills-heading">Technical Skills</h3>
+            <h3 class="skills-heading">
+                Technical Skills
+            </h3>
 
             <div class="skills-wrap">
+
                 <span class="chip">HTML</span>
                 <span class="chip">CSS</span>
                 <span class="chip">JavaScript</span>
@@ -368,23 +393,27 @@
                 <span class="chip">Java</span>
                 <span class="chip">MySQL</span>
                 <span class="chip">Data Science</span>
-                
+                <span class="chip">Cybersecurity</span>
+
             </div>
 
-            <h3 class="skills-heading">Soft Skills</h3>
+            <h3 class="skills-heading">
+                Soft Skills
+            </h3>
 
             <div class="skills-wrap">
+
                 <span class="chip">Leadership</span>
                 <span class="chip">Communication</span>
                 <span class="chip">Teamwork</span>
                 <span class="chip">Strategic Planning</span>
                 <span class="chip">Project Management</span>
+
             </div>
 
         </div>
 
     </section>
-
 
     <!-- CONTACT -->
     <section id="contact" class="section section-contact fade-in">
@@ -405,18 +434,39 @@
                 <div class="contact-details">
 
                     <a href="mailto:rnaagar908@gmail.com" class="contact-row">
-                        <span class="contact-key">Email</span>
-                        <span class="contact-val">rnaagar908@gmail.com</span>
+
+                        <span class="contact-key">
+                            Email
+                        </span>
+
+                        <span class="contact-val">
+                            rnaagar908@gmail.com
+                        </span>
+
                     </a>
 
                     <a href="tel:+917042813066" class="contact-row">
-                        <span class="contact-key">Phone</span>
-                        <span class="contact-val">+91 7042813066</span>
+
+                        <span class="contact-key">
+                            Phone
+                        </span>
+
+                        <span class="contact-val">
+                            +91 7042813066
+                        </span>
+
                     </a>
 
                     <div class="contact-row">
-                        <span class="contact-key">Location</span>
-                        <span class="contact-val">New Delhi, India</span>
+
+                        <span class="contact-key">
+                            Location
+                        </span>
+
+                        <span class="contact-val">
+                            New Delhi, India
+                        </span>
+
                     </div>
 
                 </div>
@@ -427,14 +477,12 @@
 
     </section>
 
-
     <!-- FOOTER -->
     <footer>
         <p>
             © 2026 Rashi Naagar · Crafted with Care ✨
         </p>
     </footer>
-
 
     <!-- SCRIPT -->
     <script>
@@ -452,14 +500,12 @@
 
         faders.forEach(el => fadeObserver.observe(el));
 
-
-        /* NAVBAR SHRINK */
+        /* NAVBAR */
         const navbar = document.getElementById('navbar');
 
         window.addEventListener('scroll', () => {
             navbar.classList.toggle('stuck', scrollY > 50);
         });
-
 
         /* MOBILE MENU */
         const menuBtn = document.getElementById('menuBtn');
@@ -468,19 +514,6 @@
         menuBtn.addEventListener('click', () => {
             menuBtn.classList.toggle('open');
             navMenu.classList.toggle('open');
-        });
-
-
-        /* SMOOTH SCROLL */
-        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-
-                document.querySelector(this.getAttribute('href'))
-                    .scrollIntoView({
-                        behavior: 'smooth'
-                    });
-            });
         });
 
     </script>
