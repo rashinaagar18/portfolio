@@ -4,247 +4,522 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <title>Rashi Naagar | Portfolio</title>
+
     <meta name="description"
-        content="Rashi Naagar — BCA student, frontend developer, and Data Science. Portfolio showcasing education, experience, and skills.">
+        content="Rashi Naagar — Frontend Developer, BCA Student & Data Science Enthusiast Portfolio.">
+
     <link rel="stylesheet" href="style.css">
-    <meta name="google-site-verification" content="FgAJWP-6QLEOTDkbPVKLnWgfzNHGZPhjnbm31j00ymY" />
+
+    <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
     <link
-        href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Outfit:wght@300;400;500;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
         rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 </head>
 
 <body>
 
-    <!-- FLOATING NAV -->
+    <!-- PARTICLES -->
+    <div class="particles">
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+    </div>
+
+    <!-- NAVBAR -->
     <header id="navbar">
-        <a href="#" class="logo">R<span class="logo-dot">.</span></a>
+
+        <a href="#" class="logo">
+            R<span class="logo-dot">.</span>
+        </a>
+
         <nav id="navMenu">
             <a href="#about">About</a>
             <a href="#education">Education</a>
             <a href="#experience">Experience</a>
+            <a href="#projects">Projects</a>
+            <a href="#certificates">Certificates</a>
             <a href="#skills">Skills</a>
             <a href="#contact">Contact</a>
         </nav>
-        <button class="menu-btn" id="menuBtn" aria-label="Menu">
-            <span></span><span></span>
+
+        <button class="menu-btn" id="menuBtn">
+            <span></span>
+            <span></span>
         </button>
+
     </header>
 
     <!-- HERO -->
-    <section class="hero">
+    <section class="hero section-pink">
+
         <div class="hero-grid-bg"></div>
-        <div class="hero-content">
-            <div class="hero-badge">🛡️ Frontend Developer </div>
-            <h1>Rashi<br><em>Naagar</em></h1>
-            <p class="hero-sub">BCA Student · frontend · Data Science </p>
-            <div class="hero-actions">
-                <a href="#contact" class="btn-fill">Say Hello</a>
-                <a href="#about" class="btn-outline">Explore ↓</a>
+
+        <!-- STICKERS -->
+        <img src="star.png" class="sticker sticker-1">
+        <img src="heart.png" class="sticker sticker-2">
+        <img src="sparkle.png" class="sticker sticker-3">
+
+        <div class="hero-content fade-in">
+
+            <div class="hero-image-wrap">
+                <img src="rashi.jpg" alt="Rashi Naagar" class="hero-image">
             </div>
+
+            <div class="hero-badge">
+                ✨ Frontend Developer · BCA Student
+            </div>
+
+            <h1>
+                Rashi<br>
+                <em>Naagar</em>
+            </h1>
+
+            <p class="hero-sub">
+                Frontend · Data Science · Creative Developer
+            </p>
+
+            <!-- SOCIALS -->
+            <div class="social-links">
+
+                <a href="https://github.com/yourusername" target="_blank">
+                    <i class="fab fa-github"></i>
+                </a>
+
+                <a href="https://linkedin.com/in/yourusername" target="_blank">
+                    <i class="fab fa-linkedin-in"></i>
+                </a>
+
+                <a href="mailto:rnaagar908@gmail.com">
+                    <i class="fas fa-envelope"></i>
+                </a>
+
+            </div>
+
+            <!-- BUTTONS -->
+            <div class="hero-actions">
+
+                <a href="#contact" class="btn-fill">
+                    Say Hello
+                </a>
+
+                <a href="resume.pdf" download class="btn-outline">
+                    Download Resume
+                </a>
+
+            </div>
+
         </div>
+
         <div class="hero-scroll-line"></div>
+
     </section>
 
+
     <!-- ABOUT -->
-    <section id="about" class="section fade-in">
+    <section id="about" class="section section-lavender fade-in">
+
         <div class="container">
-            <div class="section-label">01 — About</div>
+
+            <div class="section-label">
+                01 — About
+            </div>
+
             <div class="about-layout">
-                <h2>Building at the<br>intersection of<br><em>security & code</em></h2>
+
+                <h2>
+                    Building at the intersection of
+                    <em>design & code</em>
+                </h2>
+
                 <div class="about-body">
+
                     <p>
-                        BCA student with strong foundation in programming, databases, and data analysis.
-                        Experienced in teamwork and leadership through active roles in college clubs. 
-                        Seeking an internship opportunity to apply technical skills in a professional environment.
+                        BCA student with strong foundation in programming,
+                        frontend development, databases, and data science.
+                        Passionate about building beautiful digital experiences
+                        with modern UI design and smooth interactions.
                     </p>
+
                     <div class="about-highlights">
+
                         <div class="highlight">
-                            <span class="h-num">9.34</span>
+                            <span class="h-num">9.5</span>
                             <span class="h-label">CGPA</span>
                         </div>
+
                         <div class="highlight">
                             <span class="h-num">11+</span>
-                            <span class="h-label">Tech Skills</span>
+                            <span class="h-label">Skills</span>
                         </div>
+
                         <div class="highlight">
                             <span class="h-num">3</span>
                             <span class="h-label">Roles</span>
                         </div>
+
                     </div>
+
                 </div>
+
             </div>
+
         </div>
+
     </section>
 
+
     <!-- EDUCATION -->
-    <section id="education" class="section fade-in">
+    <section id="education" class="section section-peach fade-in">
+
         <div class="container">
-            <div class="section-label">02 — Education</div>
+
+            <div class="section-label">
+                02 — Education
+            </div>
+
             <div class="edu-stack">
+
                 <div class="edu-card">
                     <div class="edu-year">2024–2027</div>
+
                     <div class="edu-info">
                         <h3>Bachelor of Computer Applications</h3>
                         <p>Jagannath International Management School, Vasant Kunj</p>
                         <span class="edu-tag">CGPA: 9.5</span>
                     </div>
                 </div>
+
                 <div class="edu-card">
                     <div class="edu-year">Class XII</div>
+
                     <div class="edu-info">
                         <h3>PCM Stream</h3>
                         <p>Green Fields School</p>
-                        <span class="edu-tag">77.4%</span>
+                        <span class="edu-tag">77%</span>
                     </div>
                 </div>
+
                 <div class="edu-card">
                     <div class="edu-year">Class X</div>
+
                     <div class="edu-info">
                         <h3>Secondary Education</h3>
                         <p>Green Fields School</p>
-                        <span class="edu-tag">93.4%</span>
+                        <span class="edu-tag">93%</span>
                     </div>
                 </div>
+
             </div>
+
         </div>
+
     </section>
 
+
     <!-- EXPERIENCE -->
-    <section id="experience" class="section fade-in">
+    <section id="experience" class="section section-mint fade-in">
+
         <div class="container">
-            <div class="section-label">03 — Experience & Responsibilities</div>
+
+            <div class="section-label">
+                03 — Experience
+            </div>
+
             <div class="exp-grid">
+
                 <article class="exp-card">
                     <div class="exp-icon">📱</div>
-                    <div class="exp-meta">ENIGMA IT Club · Aug 2025 – Present</div>
-                    <h3>Assistant Director — Social Media & Content</h3>
+                    <div class="exp-meta">ENIGMA IT Club</div>
+
+                    <h3>Assistant Director — Social Media</h3>
+
                     <ul>
-                        <li>Managed social media and content planning</li>
+                        <li>Managed content planning & social media</li>
                         <li>Supported technical event execution</li>
                     </ul>
                 </article>
+
                 <article class="exp-card">
                     <div class="exp-icon">💡</div>
-                    <div class="exp-meta">E-Cell, JIMS · Aug 2025 – Present</div>
+                    <div class="exp-meta">E-Cell JIMS</div>
+
                     <h3>Strategies Executive</h3>
+
                     <ul>
-                        <li>Strategic planning and promotions</li>
-                        <li>Entrepreneurship event coordination</li>
+                        <li>Worked on strategic planning</li>
+                        <li>Coordinated entrepreneurship events</li>
                     </ul>
                 </article>
+
                 <article class="exp-card">
                     <div class="exp-icon">🔐</div>
                     <div class="exp-meta">Secure Strike</div>
+
                     <h3>Cybersecurity Intern</h3>
+
                     <ul>
                         <li>Cybersecurity fundamentals</li>
-                        <li>Threat awareness & safe computing practices</li>
+                        <li>Threat awareness & safe practices</li>
                     </ul>
                 </article>
+
             </div>
+
         </div>
+
     </section>
 
-    <!-- SKILLS -->
-    <section id="skills" class="section fade-in">
-        <div class="container">
-            <div class="section-label">04 — Skills</div>
 
-            <h3 class="skills-heading">Technical</h3>
+    <!-- PROJECTS -->
+    <section id="projects" class="section section-blue fade-in">
+
+        <div class="container">
+
+            <div class="section-label">
+                04 — Projects
+            </div>
+
+            <div class="project-grid">
+
+                <div class="project-card">
+                    <div class="project-image">💻</div>
+                    <h3>Personal Portfolio Website</h3>
+
+                    <p>
+                        Responsive portfolio website built using
+                        HTML, CSS & JavaScript with modern UI.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">📊</div>
+                    <h3>Health Data Analysis</h3>
+
+                    <p>
+                        Healthcare dataset analysis using Python,
+                        Pandas and Matplotlib.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Python</span>
+                        <span>Pandas</span>
+                        <span>ML</span>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">🔐</div>
+                    <h3>Cybersecurity Internship Project</h3>
+
+                    <p>
+                        Worked on cybersecurity awareness,
+                        networking and safe computing.
+                    </p>
+
+                    <div class="project-tags">
+                        <span>Cybersecurity</span>
+                        <span>Networking</span>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CERTIFICATES -->
+    <section id="certificates" class="section section-yellow fade-in">
+
+        <div class="container">
+
+            <div class="section-label">
+                05 — Certifications
+            </div>
+
+            <div class="cert-grid">
+
+                <div class="cert-card">
+                    <div class="cert-icon">🏆</div>
+                    <h3>Cybersecurity Internship</h3>
+                    <p>Secure Strike</p>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">📜</div>
+                    <h3>Frontend Development</h3>
+                    <p>HTML · CSS · JavaScript</p>
+                </div>
+
+                <div class="cert-card">
+                    <div class="cert-icon">🚀</div>
+                    <h3>Data Science Training</h3>
+                    <p>Python & Machine Learning</p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- SKILLS -->
+    <section id="skills" class="section section-purple fade-in">
+
+        <div class="container">
+
+            <div class="section-label">
+                06 — Skills
+            </div>
+
+            <h3 class="skills-heading">Technical Skills</h3>
+
             <div class="skills-wrap">
-                <span class="chip" style="--i:0">C</span>
-                <span class="chip" style="--i:1">Java (OOP)</span>
-                <span class="chip" style="--i:2">Python</span>
-                <span class="chip" style="--i:3">HTML</span>
-                <span class="chip" style="--i:4">CSS</span>
-                <span class="chip" style="--i:5">MySQL</span>
-                <span class="chip" style="--i:6">JavaScript</span>
-                <span class="chip" style="--i:7">ReactJS</span>
-                <span class="chip" style="--i:8">Data Science</span>
-                <span class="chip" style="--i:9">Machine Learning</span>
-                <span class="chip" style="--i:10">Cybersecurity Basics</span>
+                <span class="chip">HTML</span>
+                <span class="chip">CSS</span>
+                <span class="chip">JavaScript</span>
+                <span class="chip">ReactJS</span>
+                <span class="chip">Python</span>
+                <span class="chip">Java</span>
+                <span class="chip">MySQL</span>
+                <span class="chip">Machine Learning</span>
+                <span class="chip">Cybersecurity</span>
             </div>
 
             <h3 class="skills-heading">Soft Skills</h3>
+
             <div class="skills-wrap">
-                <span class="chip soft" style="--i:0">Leadership</span>
-                <span class="chip soft" style="--i:1">Project Management</span>
-                <span class="chip soft" style="--i:2">Strategic Planning</span>
-                <span class="chip soft" style="--i:3">Communication</span>
-                <span class="chip soft" style="--i:4">Team Collaboration</span>
-                <span class="chip soft" style="--i:5">Analytical Thinking</span>
+                <span class="chip">Leadership</span>
+                <span class="chip">Communication</span>
+                <span class="chip">Teamwork</span>
+                <span class="chip">Strategic Planning</span>
+                <span class="chip">Project Management</span>
             </div>
+
         </div>
+
     </section>
 
+
     <!-- CONTACT -->
-    <section id="contact" class="section fade-in">
+    <section id="contact" class="section section-contact fade-in">
+
         <div class="container">
-            <div class="section-label">05 — Contact</div>
+
+            <div class="section-label">
+                07 — Contact
+            </div>
+
             <div class="contact-layout">
-                <h2>Let's<br><em>connect</em></h2>
+
+                <h2>
+                    Let's
+                    <em>Connect</em>
+                </h2>
+
                 <div class="contact-details">
+
                     <a href="mailto:rnaagar908@gmail.com" class="contact-row">
                         <span class="contact-key">Email</span>
                         <span class="contact-val">rnaagar908@gmail.com</span>
                     </a>
+
                     <a href="tel:+917042813066" class="contact-row">
                         <span class="contact-key">Phone</span>
                         <span class="contact-val">+91 7042813066</span>
                     </a>
+
                     <div class="contact-row">
                         <span class="contact-key">Location</span>
                         <span class="contact-val">New Delhi, India</span>
                     </div>
+
                 </div>
+
             </div>
+
         </div>
+
     </section>
 
+
+    <!-- FOOTER -->
     <footer>
-        <p>© 2026 Rashi Naagar · Crafted with care</p>
+        <p>
+            © 2026 Rashi Naagar · Crafted with Care ✨
+        </p>
     </footer>
 
+
+    <!-- SCRIPT -->
     <script>
-        /* Scroll reveal */
+
+        /* SCROLL REVEAL */
         const faders = document.querySelectorAll('.fade-in');
+
         const fadeObserver = new IntersectionObserver((entries) => {
-            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('visible'); });
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                }
+            });
         }, { threshold: 0.12 });
+
         faders.forEach(el => fadeObserver.observe(el));
 
-        /* Navbar shrink */
-        const nb = document.getElementById('navbar');
-        window.addEventListener('scroll', () => nb.classList.toggle('stuck', scrollY > 60));
 
-        /* Mobile menu */
+        /* NAVBAR SHRINK */
+        const navbar = document.getElementById('navbar');
+
+        window.addEventListener('scroll', () => {
+            navbar.classList.toggle('stuck', scrollY > 50);
+        });
+
+
+        /* MOBILE MENU */
         const menuBtn = document.getElementById('menuBtn');
         const navMenu = document.getElementById('navMenu');
+
         menuBtn.addEventListener('click', () => {
             menuBtn.classList.toggle('open');
             navMenu.classList.toggle('open');
         });
-        document.querySelectorAll('#navMenu a').forEach(a =>
-            a.addEventListener('click', () => { menuBtn.classList.remove('open'); navMenu.classList.remove('open'); })
-        );
 
-        /* Smooth scroll */
-        document.querySelectorAll('a[href^="#"]').forEach(a => {
-            a.addEventListener('click', e => {
+
+        /* SMOOTH SCROLL */
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
                 e.preventDefault();
-                const t = document.querySelector(a.getAttribute('href'));
-                if (t) t.scrollIntoView({ behavior: 'smooth' });
+
+                document.querySelector(this.getAttribute('href'))
+                    .scrollIntoView({
+                        behavior: 'smooth'
+                    });
             });
         });
 
-        /* Staggered chip animation */
-        const chipObserver = new IntersectionObserver((entries) => {
-            entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('pop'); });
-        }, { threshold: 0.1 });
-        document.querySelectorAll('.chip').forEach(c => chipObserver.observe(c));
     </script>
 
 </body>
